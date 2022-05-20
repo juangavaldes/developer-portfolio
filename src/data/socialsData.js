@@ -1,5 +1,5 @@
 export const socialsData = {
-    github: 'https://github.com/sreerag-rajan',
+    github: 'https://github.com/sjuangavaldes',
     facebook: '',
     linkedIn: 'https://www.linkedin.com/in/sreerag-rajan-55383a222',
     instagram: '',
@@ -10,5 +10,6 @@ export const socialsData = {
     medium: 'https://medium.com/@sreerag.rajan5',
     stackOverflow: '',
     gitlab: '',
-    youtube: ''
+    youtube: '',
+    whatsapp: 'https://wa.me/50688919417',
 }

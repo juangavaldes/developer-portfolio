@@ -9,7 +9,7 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
+    FaWhatsapp,
     FaLinkedin,
     FaGithub,
     FaYoutube,
@@ -101,20 +101,20 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.twitter && (
+                        {socialsData.whatsapp && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.whatsapp}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaWhatsapp
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='WhatsApp'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {/*socialsData.youtube && (
                             <a
                                 href={socialsData.youtube}
                                 target='_blank'

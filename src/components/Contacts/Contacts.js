@@ -5,7 +5,7 @@ import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    FaTwitter,
+    FaWhatsapp,
     FaLinkedinIn,
     FaGithub,
     FaYoutube,
@@ -313,16 +313,16 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {/* {socialsData.twitter && (
+                            {socialsData.whatsapp && (
                                 <a
-                                    href={socialsData.twitter}
+                                    href={socialsData.whatsapp}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaTwitter aria-label='Twitter' />
+                                    <FaWhatsapp aria-label='WhatsApp' />
                                 </a>
-                            )} */}
+                            )}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -343,7 +343,7 @@ function Contacts() {
                                     <FaLinkedinIn aria-label='LinkedIn' />
                                 </a>
                             )}
-                            {/* {socialsData.instagram && (
+                            {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
                                     target='_blank'
@@ -352,8 +352,8 @@ function Contacts() {
                                 >
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
-                            )}*/}
-                            {socialsData.medium && (
+                            )}
+                            {/*socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
                                     target='_blank'
@@ -362,7 +362,7 @@ function Contacts() {
                                 >
                                     <FaMediumM aria-label='Medium' />
                                 </a>
-                            )}
+                            )}*/}
                             {/*
                             {socialsData.blogger && (
                                 <a
