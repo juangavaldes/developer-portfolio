@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
-        endYear: '2018'
+        institution: 'Colegio Deportivo de Santo Domingo de Heredia',
+        course: 'Bachillerato en Educación Diversificada',
+        startYear: '2001',
+        endYear: '2006'
     },
     {
         id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
-        startYear: '2019',
-        endYear: '2021'
+        institution: 'UAM, San Jose, Costa Rica.',
+        course: 'Bachillerato en Terapia Física',
+        startYear: '2007',
+        endYear: '2009'
     },
     {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
-        endYear: 'Present'
+        institution: 'UAM, San Jose, Costa Rica.',
+        course: 'Licenciatura en Terapia Física',
+        startYear: '2009',
+        endYear: '2010'
     },
 ]

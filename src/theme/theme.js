@@ -4,9 +4,30 @@ import {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
     yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow
+    contactsRed,contactsYellow,ohm, yoga, lotus
 } from './images'
 
+export const greyThemeLight = {
+    type: 'light',
+    primary: '#808080',
+    primary400: '#BDBDBD',
+    primary600: '#757575',
+    primary80: '#9a9a9a',
+    primary50: '#595959',
+    primary30: '#9a9a9a',
+    secondary: '#EAEAEA',
+    secondary70: '#EAEAEAb3',
+    secondary50: '#EAEAEA80',
+    tertiary: '#212121',
+    tertiary80: '#212121cc',
+    tertiary70: '#212121b3',
+    tertiary50: '#21212180',
+    aboutimg1: lotus,
+    aboutimg2: bwThemegirl,
+    eduimg: yoga,
+    expimg: expBlack,
+    contactsimg: contactsBlack
+}
 
 export const greenThemeLight = {
     type: 'light',

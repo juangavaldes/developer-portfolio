@@ -1,9 +1,9 @@
 import resume from '../assets/pdf/resume.pdf'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    name: 'Rebeca Arroyo Lobo',
+    title: "Licda. en Terapia Física",
+    desciption:"En un mundo que se transforma furiosa e incesantemente, Nataranja y el mensaje de su danza: \n<<Manten la calma y sigue adelante>> puede ser uno de los pocos anclajes espirituales relevantes de nuestro tiempo.",
+    image: 'https://avatars.githubusercontent.com/u/106926197?v=4',
     resumePdf: resume
 }

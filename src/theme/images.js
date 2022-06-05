@@ -14,10 +14,14 @@ import redThemeboy from '../assets/svg/about/redTheme-boy.svg'
 import redThemegirl from '../assets/svg/about/redTheme-girl.svg'
 import yellowThemeboy from '../assets/svg/about/yellowTheme-boy.svg'
 import yellowThemegirl from '../assets/svg/about/yellowTheme-girl.svg'
+import ohm from '../assets/svg/about/ohm.svg'
+import heart from '../assets/svg/about/heart.svg'
+import lotus from '../assets/svg/about/lotus.svg'
 
 import eduBlue from '../assets/svg/education/eduBlue.svg'
 import eduGreen from '../assets/svg/education/eduGreen.svg'
 import eduBlack from '../assets/svg/education/eduBlack.svg'
+import yoga from '../assets/svg/education/yoga.svg'
 import eduOrange from '../assets/svg/education/eduOrange.svg'
 import eduPink from '../assets/svg/education/eduPink.svg'
 import eduPurple from '../assets/svg/education/eduPurple.svg'
@@ -48,5 +52,5 @@ export {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl,
     yellowThemeboy,yellowThemegirl,eduBlue,eduBlack,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,
     expBlue,expBlack,expGreen,expOrange,expPink,expPurple,expRed,expYellow,contactsBlue,contactsBlack,
-    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow
+    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow,yoga,ohm,heart,lotus
 }

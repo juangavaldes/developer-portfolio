@@ -10,10 +10,9 @@ import { socialsData } from '../../data/socialsData';
 
 import {
     FaWhatsapp,
-    FaLinkedin,
-    FaGithub,
-    FaYoutube,
-    FaBlogger,
+    FaFacebook,
+    FaInstagram,
+    FaLinkedin
 } from 'react-icons/fa';
 
 function Landing() {
@@ -75,29 +74,29 @@ function Landing() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
-                        {socialsData.linkedIn && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.linkedIn}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaLinkedin
+                                <FaInstagram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='LinkedIn'
+                                    aria-label='Instagram'
                                 />
                             </a>
                         )}
-                        {socialsData.github && (
+                        {socialsData.facebook && (
                             <a
-                                href={socialsData.github}
+                                href={socialsData.facebook}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaGithub
+                                <FaFacebook
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='GitHub'
+                                    aria-label='Facebook'
                                 />
                             </a>
                         )}
@@ -111,6 +110,19 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='WhatsApp'
+                                />
+                            </a>
+                        )}
+                        {socialsData.linkedIn && (
+                            <a
+                                href={socialsData.linkedIn}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaLinkedin
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='LinkedIn'
                                 />
                             </a>
                         )}

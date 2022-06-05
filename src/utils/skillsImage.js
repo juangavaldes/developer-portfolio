@@ -58,7 +58,14 @@ import strapi from '../assets/svg/skills/strapi.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
-
+import yoga from '../assets/svg/skills/yoga.svg'
+import telas from '../assets/svg/skills/telas.svg'
+import pilates from '../assets/svg/skills/pilates.svg'
+import antigravity from '../assets/svg/skills/yoga2.svg'
+import training from '../assets/svg/skills/training.svg'
+import kids from '../assets/svg/skills/kids.svg'
+import fisio from '../assets/svg/skills/fisio.svg'
+import reiki from '../assets/svg/skills/reiki.svg'
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
 import fastify from '../assets/svg/skills/fastify.svg'
@@ -227,6 +234,22 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'yoga':
+            return yoga
+        case 'danza aerea':
+            return telas
+        case 'pilates':
+            return pilates
+        case 'antigravity yoga':
+            return antigravity
+        case 'personal training':
+            return training
+        case 'yoga kids':
+            return kids
+        case 'terapia fisica':
+            return fisio
+        case 'reiki':
+            return reiki
         default:
             break;
     }

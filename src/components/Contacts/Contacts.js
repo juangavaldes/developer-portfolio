@@ -7,7 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import {
     FaWhatsapp,
     FaLinkedinIn,
-    FaGithub,
+    FaFacebook,
     FaYoutube,
     FaBloggerB,
     FaRedditAlien,
@@ -15,6 +15,7 @@ import {
     FaCodepen,
     FaInstagram,
     FaGitlab,
+    FaGithub,
     FaMediumM,
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
@@ -351,6 +352,16 @@ function Contacts() {
                                     className={classes.socialIcon}
                                 >
                                     <FaInstagram aria-label='Instagram' />
+                                </a>
+                            )}
+                            {socialsData.facebook && (
+                                <a
+                                    href={socialsData.facebook}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaFacebook aria-label='Facebook' />
                                 </a>
                             )}
                             {/*socialsData.medium && (
