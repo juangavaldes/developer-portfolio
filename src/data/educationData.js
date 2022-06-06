@@ -1,10 +1,10 @@
-export const educationData = [
+export const educationData = [    
     {
         id: 1,
-        institution: 'Colegio Deportivo de Santo Domingo de Heredia',
-        course: 'Bachillerato en Educación Diversificada',
-        startYear: '2001',
-        endYear: '2006'
+        institution: 'UAM, San Jose, Costa Rica.',
+        course: 'Licenciatura en Terapia Física',
+        startYear: '2009',
+        endYear: '2010'
     },
     {
         id: 2,
@@ -15,9 +15,9 @@ export const educationData = [
     },
     {
         id: 3,
-        institution: 'UAM, San Jose, Costa Rica.',
-        course: 'Licenciatura en Terapia Física',
-        startYear: '2009',
-        endYear: '2010'
-    },
+        institution: 'Colegio Deportivo de Santo Domingo de Heredia',
+        course: 'Bachillerato en Educación Diversificada',
+        startYear: '2001',
+        endYear: '2006'
+    },    
 ]

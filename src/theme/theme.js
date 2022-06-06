@@ -9,12 +9,12 @@ import {
 
 export const greyThemeLight = {
     type: 'light',
-    primary: '#808080',
-    primary400: '#BDBDBD',
+    primary: '#A0816C',
+    primary400: '#DBC2AD',
     primary600: '#757575',
-    primary80: '#9a9a9a',
-    primary50: '#595959',
-    primary30: '#9a9a9a',
+    primary80: '#D1B7A1',
+    primary50: '#E9D3CD',
+    primary30: '#DBC2AD',
     secondary: '#EAEAEA',
     secondary70: '#EAEAEAb3',
     secondary50: '#EAEAEA80',
