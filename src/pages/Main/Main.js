@@ -14,9 +14,9 @@ function Main() {
             <Navbar />        
             <Landing />
             <About />
-            <Skills />
-            <Education />            
             <Projects />
+            <Skills />
+            <Education />
             <Achievement />
             {/* <Blog /> */}
             <Contacts />

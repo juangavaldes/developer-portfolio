@@ -17,6 +17,8 @@ import yellowThemegirl from '../assets/svg/about/yellowTheme-girl.svg'
 import ohm from '../assets/svg/about/ohm.svg'
 import heart from '../assets/svg/about/heart.svg'
 import lotus from '../assets/svg/about/lotus.svg'
+import pose from '../assets/svg/about/pose.svg'
+import circle from '../assets/svg/about/yoga_circle.svg'
 
 import eduBlue from '../assets/svg/education/eduBlue.svg'
 import eduGreen from '../assets/svg/education/eduGreen.svg'
@@ -52,5 +54,5 @@ export {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl,
     yellowThemeboy,yellowThemegirl,eduBlue,eduBlack,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,
     expBlue,expBlack,expGreen,expOrange,expPink,expPurple,expRed,expYellow,contactsBlue,contactsBlack,
-    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow,yoga,ohm,heart,lotus
+    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow,yoga,ohm,heart,lotus,pose,circle
 }

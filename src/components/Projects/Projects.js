@@ -46,9 +46,9 @@ function Projects() {
     return (
         <>
             {projectsData.length > 0 && (
-                <div className="projects" id="projects" style={{backgroundColor: theme.secondary}}>
+                <div className="projects" id="servicios" style={{backgroundColor: theme.secondary}}>
                     <div className="projects--header">
-                        <h1 style={{color: theme.primary}}>Projects</h1>
+                        <h1 style={{color: theme.primary}}>Servicios</h1>
                     </div>
                     <div className="projects--body">
                         <div className="projects--bodyContainer">
@@ -69,7 +69,7 @@ function Projects() {
 
                         {projectsData.length > 3 && (
                             <div className="projects--viewAll">
-                                <Link to="/projects">
+                                <Link to="/servicios">
                                     <button className={classes.viewAllBtn}>
                                         View All
                                         <HiArrowRight className={classes.viewArr} />

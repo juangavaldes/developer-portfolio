@@ -4,7 +4,7 @@ import {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
     yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow,ohm, yoga, lotus
+    contactsRed,contactsYellow,ohm,yoga,lotus,pose,circle
 } from './images'
 
 export const greyThemeLight = {
@@ -22,7 +22,7 @@ export const greyThemeLight = {
     tertiary80: '#212121cc',
     tertiary70: '#212121b3',
     tertiary50: '#21212180',
-    aboutimg1: lotus,
+    aboutimg1: circle,
     aboutimg2: bwThemegirl,
     eduimg: yoga,
     expimg: expBlack,

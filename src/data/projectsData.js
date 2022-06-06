@@ -18,8 +18,8 @@ import heart from '../assets/svg/about/heart.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Maestra de Yoga FBS',
-        projectDesc: 'Maestra de Yoga en el Fondo de beneficio social de los trabajadores de la Universidad Nacional, Heredia, 2020 - actualidad.',
+        projectName: 'Yoga',
+        projectDesc: 'Ofrezco clases de Yoga grupales e individuales y virtuales. Yoga prenatal, para niños y adultos.',
         tags: ['Yoga'],
         code: '',
         demo: '',
@@ -27,8 +27,8 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'Maestra de Yoga y Telas en ExpresArt',
-        projectDesc: 'Maestra de Yoga en ExpresArt, Santo Domingo de Heredia, 2017 - actualidad.',
+        projectName: 'Danza Aerea en Telas',
+        projectDesc: 'Ofrezco clases de Danza Aerea en Telas grupales e individuales.',
         tags: ['Telas', 'Yoga'],
         code: '',
         demo: '',
@@ -36,57 +36,39 @@ export const projectsData = [
     },
     {
         id: 3,
+        projectName: 'Pilates',
+        projectDesc: 'Maestra de Pilates, grupales individuales y virtuales.',
+        tags: ['Pilates'],
+        code: '',
+        demo: '',
+        image: pilates
+    },
+    {
+        id: 4,
         projectName: 'Terapeuta Físico a Domicilio',
-        projectDesc: 'Terapeuta Fisico a Domicilio, tratamiento y prevencion de lesiones, 2015 - actualidad',
+        projectDesc: 'Terapeuta Fisico a Domicilio, tratamiento y prevencion de lesiones',
         tags: ['Terapia Fisica', 'Masajes'],
         code: '',
         demo: '',
         image: fisio
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'Distribuidora Copa Menstrual MeLuna',
-        projectDesc: 'Distribuidora Copa Menstrual MeLuna. 2016 - 2022',
+        projectDesc: 'Distribuidora Copa Menstrual MeLuna.',
         tags: ['Copa Menstrual', 'Greenlife'],
         code: '',
         demo: '',
         image: heart
     },
     {
-        id: 5,
-        projectName: 'Maestra de Yoga a Domicilio',
-        projectDesc: 'Maestra de Yoga a Domicilio, clases privadas y personalizadas, 2015 - actualidad',
-        tags: ['TYoga', 'Personalizada'],
-        code: '',
-        demo: '',
-        image: yoga
-    },
-    {
         id: 6,
-        projectName: 'Maestra de Yoga para Niños, Yoga Mandir',
-        projectDesc: 'Maestra de Yoga para Niños, Yoga Mandir, San Pedro Montes de Oca. 2015 - 2016',
-        tags: ['Niños', 'Yoga'],
-        code: '',
-        demo: '',
-        image: kids
-    },
-    {
-        id: 7,
         projectName: 'Entrenadora Personal',
-        projectDesc: 'Entrenadora Personal, alcanza tus objetivos. 2015 - actualidad',
+        projectDesc: 'Entrenadora Personal, alcanza tus objetivos.',
         tags: ['Entrenamiento Personal'],
         code: '',
         demo: '',
         image: training
-    },
-    {
-        id: 8,
-        projectName: 'Maestra de telas kids y pilates, El Spot Studio',
-        projectDesc: 'Maestra de telas kids y pilates, El Spot Studio, Heredia. 2017 - 2020',
-        tags: ['Telas', 'Pilates'],
-        code: '',
-        demo: '',
-        image: pilates
     }
     
     

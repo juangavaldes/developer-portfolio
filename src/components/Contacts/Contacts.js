@@ -164,11 +164,11 @@ function Contacts() {
     return (
         <div
             className='contacts'
-            id='contacts'
+            id='contacto'
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Contacto</h1>
                 <div className='contacts-body'>
                     {/* <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>

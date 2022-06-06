@@ -189,13 +189,13 @@ function Landing() {
                                 </a>
                             )}
                             <NavLink
-                                to='/#contacts'
+                                to='/#contacto'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
                             >
                                 <Button className={classes.contactBtn}>
-                                    Contact
+                                    Contacto
                                 </Button>
                             </NavLink>
                         </div>

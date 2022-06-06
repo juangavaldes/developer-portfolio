@@ -193,7 +193,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Home
+                                        Inicio
                                     </span>
                                 </div>
                             </NavLink>
@@ -201,7 +201,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#about'
+                                to='/#acerca'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -209,7 +209,7 @@ function Navbar() {
                                 <div className={classes.drawerItem}>
                                     <FaUser className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
-                                        About
+                                        Acerca
                                     </span>
                                 </div>
                             </NavLink>
@@ -217,43 +217,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#education'
-                                smooth={true}
-                                spy='true'
-                                duration={2000}
-                            >
-                                <div className={classes.drawerItem}>
-                                    <HiDocumentText
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Education
-                                    </span>
-                                </div>
-                            </NavLink>
-                        </Fade>
-
-                        <Fade left>
-                            <NavLink
-                                to='/#skills'
-                                smooth={true}
-                                spy='true'
-                                duration={2000}
-                            >
-                                <div className={classes.drawerItem}>
-                                    <BsFillGearFill
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Skills
-                                    </span>
-                                </div>
-                            </NavLink>
-                        </Fade>
-
-                        <Fade left>
-                            <NavLink
-                                to='/#projects'
+                                to='/#servicios'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -263,7 +227,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Projects
+                                        Servicios
                                     </span>
                                 </div>
                             </NavLink>
@@ -271,7 +235,43 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#contacts'
+                                to='/#tecnicas'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <BsFillGearFill
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Tecnicas    
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+                        
+                        <Fade left>
+                            <NavLink
+                                to='/#educacion'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <HiDocumentText
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Educacion
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#contacto'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -279,7 +279,7 @@ function Navbar() {
                                 <div className={classes.drawerItem}>
                                     <MdPhone className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
-                                        Contact
+                                        Contacto
                                     </span>
                                 </div>
                             </NavLink>
