@@ -19,6 +19,7 @@ function Main() {
             <Achievement />
             {/* <Blog /> */}
             <Contacts />
+            <Testimonials />
             {/* <Footer /> */}
         </div>
     )
