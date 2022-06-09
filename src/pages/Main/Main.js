@@ -8,7 +8,7 @@ function Main() {
     return (
         <div>
             <Helmet>
-                <title>{headerData.name} - Rebeca Arroyo Lobo</title>
+                <title>Rebeca Arroyo Lobo</title>
             </Helmet>
             <Navbar />        
             <Landing />
